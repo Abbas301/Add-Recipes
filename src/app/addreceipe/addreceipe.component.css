@@ -1,0 +1,20 @@
+.style
+{
+    font-weight: bolder;
+    font-style: italic;
+    color: orangered;
+    text-align: center;
+    border-bottom: 3px solid black;
+}
+.border
+{
+    border: 3px solid grey;
+    padding: 30px;
+    box-shadow: 5px 5px 5px 5px grey;
+    background-color: tan;
+}
+.align
+{
+    margin-left: 980px;
+    box-shadow: 3px 3px 3px 3px blue;
+}

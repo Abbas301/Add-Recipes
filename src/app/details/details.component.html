@@ -1,0 +1,141 @@
+<!-- 
+<div class="container col-6 mt-4 align">
+    <div>
+        <img src="../../assets/images/chicken.webp" alt="" height="200px" width="200px">
+    </div>
+    <div>
+        <h1>Item: chicken</h1>
+        <h2>Price: 399/-</h2>
+        <p><b>Description</b>:Its very tasty and spicy</p>
+    </div>
+</div>
+
+<div class="container col-6 mt-4 align">
+    <div>
+        <img src="../../assets/images/hyderabad biryani.webp" alt="" height="200px" width="200px">
+    </div>
+    <div>
+        <h1>Item: Hyderabad Biryani</h1>
+        <h2>Price: 699/-</h2>
+        <p><b>Description</b>:Its very tasty and spicy</p>
+    </div>
+</div>
+
+<div class="container col-6 mt-4 align">
+    <div>
+        <img src="../../assets/images/melting cheese.webp" alt="" height="200px" width="200px">
+    </div>
+    <div>
+        <h1>Item: Melting Cheese</h1>
+        <h2>Price: 799/-</h2>
+        <p><b>Description</b>: very tasty</p>
+    </div>
+</div>
+
+<div class="container col-6 mt-4 align">
+    <div>
+        <img src="../../assets/images/chicken rolls.webp" alt="" height="200px" width="200px">
+    </div>
+    <div>
+        <h1>Item: Chicken Rolls</h1>
+        <h2>Price: 279/-</h2>
+        <p><b>Description</b>: very tasty</p>
+    </div>
+</div>
+
+<div class="container col-6 mt-4 align">
+    <div>
+        <img src="../../assets/images/mcdonald.webp" alt="" height="200px" width="200px">
+    </div>
+    <div>
+        <h1>Item: McDonalds</h1>
+        <h2>Price: 699/-</h2>
+        <p><b>Description</b>: very tasty</p>
+    </div>
+</div>
+
+<div class="container col-6 mt-4 align">
+    <div>
+        <img src="../../assets/images/parota.webp" alt="" height="200px" width="200px">
+    </div>
+    <div>
+        <h1>Item: Parota</h1>
+        <h2>Price: 89/-</h2>
+        <p><b>Description</b>: very tasty</p>
+    </div>
+</div>
+
+<div class="container col-6 mt-4 align">
+    <div>
+        <img src="../../assets/images/roti curry.webp" alt="" height="200px" width="200px">
+    </div>
+    <div>
+        <h1>Item: Roti Curry</h1>
+        <h2>Price: 129/-</h2>
+        <p><b>Description</b>: very tasty</p>
+    </div>
+</div>
+
+<div class="container col-6 mt-4 align">
+    <div>
+        <img src="../../assets/images/biryani.webp" alt="" height="200px" width="200px">
+    </div>
+    <div>
+        <h1>Item: Biryani</h1>
+        <h2>Price: 189/-</h2>
+        <p><b>Description</b>: very tasty</p>
+    </div>
+</div>
+
+<div class="container col-6 mt-4 align">
+    <div>
+        <img src="../../assets/images/burger.webp" alt="" height="200px" width="200px">
+    </div>
+    <div>
+        <h1>Item: Burgers</h1>
+        <h2>Price: 159/-</h2>
+        <p><b>Description</b>: very tasty</p>
+    </div>
+</div>
+
+<div class="container col-6 mt-4 align">
+    <div>
+        <img src="../../assets/images/noodles.jpg" alt="" height="200px" width="200px">
+    </div>
+    <div>
+        <h1>Item: Noodles</h1>
+        <h2>Price: 129/-</h2>
+        <p><b>Description</b>: very tasty</p>
+    </div>
+</div>
+
+<div class="container col-6 mt-4 align">
+    <div>
+        <img src="../../assets/images/neer dosa.webp" alt="" height="200px" width="200px">
+    </div>
+    <div>
+        <h1>Item: Neer Dosa with Ghee</h1>
+        <h2>Price: 89/-</h2>
+        <p><b>Description</b>: Good</p>
+    </div>
+</div> -->
+
+
+<div class="container">
+    <h1 class="style">products</h1>
+    <div class="row">
+     <div class="col-md-6" *ngFor="let product of products">
+       <div class="card text-center my-2" >
+         <a href=""><img [src]="product.Url" alt="" height="200px" width="100%"></a>
+         <h2>Product Name :{{product.name}}</h2>
+         <h2> Origin :{{product.origin}}</h2>
+         <h2>Review :{{product.description}}</h2>
+       </div>
+      </div>
+    </div>
+  </div>
+
+  
+
+  
+

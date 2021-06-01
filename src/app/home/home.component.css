@@ -1,0 +1,86 @@
+
+.logo
+{
+width: 205px;
+margin: auto;
+}
+.name
+{
+    font-size: 50px;
+    font-weight: bolder;
+    font-style: italic;
+    color: white;
+    width: 400px;
+}
+/* block 2 */
+
+.one
+{
+    padding-top: 80px;
+    padding-left: 50px;
+}
+.block
+{
+    display: flex;
+    justify-content: space-around;
+}
+.side 
+{
+    width: 430px;
+    padding-top: 200px;
+    padding-right: 100px;
+}
+
+.inline
+{
+    display: flex;
+    justify-content: space-around;
+}
+.left
+{
+    padding-top: 80px;
+    padding-left: 50px;
+}
+.right 
+{
+    width: 430px;
+    padding-top: 200px;
+    padding-right: 100px;
+}
+.video
+{
+    margin-top: 40px;
+}
+
+
+/* footer */
+.footer
+{
+    background-color: black;
+    height: 400px;
+    width: 100%;
+    margin-top: 30px;
+}
+.lists
+{
+    color: white;
+}
+.flex
+{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+.watch
+{
+    border-bottom: 2px solid orange;
+}
+.unstyle
+{
+    list-style-type: none;
+}
+.unstyle.inline
+{
+    display: flex;
+}
+

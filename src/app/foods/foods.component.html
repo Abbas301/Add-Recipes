@@ -1,0 +1,17 @@
+
+
+   <div class="container">
+     <h1 class="style">products</h1>
+     <div class="row">
+      <div class="col-md-3" *ngFor="let product of products">
+        <div class="card text-center my-2" >
+          <a href="details"><img [src]="product.Url" alt="" height="200px" width="100%"></a>
+          <h2>{{product.name}}</h2>
+        </div>
+       </div>
+     </div>
+   </div>
+
+  
+
+   

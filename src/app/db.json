@@ -1,0 +1,88 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "origin": "India",
+      "Url": "https://image.shutterstock.com/image-photo/moscow-russiaoctober-6-2014-mcdonalds-260nw-243788887.jpg",
+      "name": "McDonalds",
+      "description": "Sweet"
+    },
+    {
+      "id": 2,
+      "origin": "India",
+      "Url": "https://lh3.googleusercontent.com/proxy/vWEDHhtftta3k4D_MEQqUcv61_Zh1xhc8P0vW67YusvDuyHqsQ16oNYBFigbPQJtIvICq9z3c-7dl0eiVhGKYFpe-nN80947iTuz3W6a0iY",
+      "name": "Chicken Rolls",
+      "description": "good"
+    },
+    {
+      "id": 3,
+      "origin": "India",
+      "Url": "https://s.wsj.net/public/resources/images/PJ-BT064_MELTYJ_P_20140204173237.jpg",
+      "name": "Melting Cheese",
+      "description": "Sweet"
+    },
+    {
+      "id": 4,
+      "origin": "India",
+      "Url": "https://c.ndtvimg.com/2020-04/6bpknrd8_chicken_625x300_10_April_20.jpg",
+      "name": "Chicken",
+      "description": "spicy"
+    },
+    {
+      "id": 5,
+      "origin": "India",
+      "Url": "https://static.toiimg.com/thumb/msid-76344801,imgsize-81967,width-800,height-600,resizemode-75/76344801.jpg",
+      "name": "Parota",
+      "description": "good"
+    },
+    {
+      "id": 6,
+      "origin": "India",
+      "Url": "https://www.cubesnjuliennes.com/wp-content/uploads/2020/07/Chicken-Biryani-Recipe-500x375.jpg",
+      "name": "Biryani",
+      "description": "good taste"
+    },
+    {
+      "id": 7,
+      "origin": "India",
+      "Url": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YnVyZ2Vyc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80",
+      "name": "Burgers",
+      "description": "good"
+    },
+    {
+      "id": 8,
+      "origin": "India",
+      "Url": "https://d4t7t8y8xqo0t.cloudfront.net/resized/750X436/eazytrendz%2F2024%2Ftrend20180912075024.jpg",
+      "name": "Hyderabad Biryani",
+      "description": "spicy"
+    },
+    {
+      "id": 9,
+      "origin": "India",
+      "Url": "https://img.taste.com.au/RCUAOZbj/w1200-h630-cfill/taste/2016/11/potato-curry-with-roti-101092-1.jpeg",
+      "name": "Roti Curry",
+      "description": "very nice"
+    },
+    {
+      "id": 10,
+      "origin": "India",
+      "Url": "https://www.whiskaffair.com/wp-content/uploads/2020/03/Hakka-Noodles-2-3.jpg",
+      "name": "Noodles",
+      "description": "very nice"
+    },
+    {
+      "name": "Neer Dosa with Paneer ghee",
+      "origin": "india",
+      "Url": "https://b.zmtcdn.com/data/dish_photos/9d3/25b8ab138ef644f599e654a3880ed9d3.jpg?fit=around|130:130&crop=130:130;*,*",
+      "description": "good",
+      "id": 11
+    },
+    {
+      "name": "recipe",
+      "origin": "india",
+      "Url": "https://i2.wp.com/cms.babbel.news/wp-content/uploads/2018/07/Quiz_FishAndChips.png?resize=640%2C360",
+      "description": "good",
+      "id": 12
+    }
+  ]
+}

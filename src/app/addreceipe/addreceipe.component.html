@@ -1,0 +1,18 @@
+
+
+<div class="container col-6 border mt-5">
+    <h1 class="style">Add Receipe</h1>
+    <form action="" #addProductForm ="ngForm" (ngSubmit)="onFormSubmit(addProductForm)">
+        <input type="text" class="form-control" placeholder="Name of the Item" id="name" name="name" ngModel #name>
+        <input type="text" class="form-control mt-2" placeholder="Origin" id="origin" name="origin" ngModel #origin>
+        <input type="text" class="form-control mt-2" placeholder="Url" id="Url" name="Url" ngModel #Url>
+        <textarea class="form-control mt-2" name="Description" id="Description" cols="30" rows="5" id="description" name="description" ngModel #description>Description</textarea>
+        <div>
+            <button type="submit" class="btn btn-primary mt-3">submit</button>
+        </div>
+    </form>
+</div>
+<div>
+    <button type="submit" class="btn btn-primary mt-3 px-5 align">submit</button>
+</div>
+
